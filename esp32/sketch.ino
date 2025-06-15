@@ -26,7 +26,7 @@ void loop() {
   // 'valorPotenciometro': VALORES DE 0 a 4095.
   uint16_t valorPotenciometro = analogRead(SENSOR_UMIDADE_PIN); // OTIMIZAÇÃO: de int (4 bytes) para uint16_t (2 bytes)
 
-  // 'umidadePercentual': Valores de 0 a 100.
+  // 'umidadePercentual': VALORES DE 0 a 100.
   // 'uint8_t' (1 byte) IDEIAL!
   // ANTIGO: int umidadePercentual = map(valorPotenciometro, 0, 4095, 0, 100);
   uint8_t umidadePercentual = map(valorPotenciometro, 0, 4095, 0, 100); // OTIMIZAÇÃO: de int (4 bytes) para uint8_t (1 byte)
