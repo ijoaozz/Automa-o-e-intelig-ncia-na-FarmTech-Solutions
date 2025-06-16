@@ -55,11 +55,11 @@ A Fase 4 teve como meta levar o projeto a um novo patamar, adicionando inteligê
 # 🧪 Demonstração Completa do FarmTech Solution
 
 ## 🔌 Simulação Detalhada no Wokwi
-O simulador online Wokwi serve como nosso laboratório virtual para o hardware. Aqui, você pode interagir diretamente com o potenciômetro (que emula com precisão um sensor de umidade de solo real) e observar as respostas do sistema em tempo real. O display LCD I2C conectado ao ESP32 exibirá as principais métricas: a porcentagem de umidade e o status atual da irrigação (indicando se é "OK" ou "IRRIGAR"). Esta é a sua janela para ver como o sistema se comportaria no campo.
+O simulador online Wokwi serve como nosso laboratório virtual para o hardware. Aqui, você pode interagir diretamente com o **potenciômetro** (que emula com precisão um sensor de umidade de solo real) e observar as respostas do sistema em tempo real. O **display LCD I2C** conectado ao **ESP32** exibirá as principais métricas: **a porcentagem de umidade** e o **status atual da irrigação** (indicando se é "OK" ou "IRRIGAR"). Esta é a sua janela para ver como o sistema se comportaria no campo.
 
 <br>
 
-Link Direto para o Projeto Wokwi: (https://wokwi.com/projects/433860973697108993)
+**Link Direto para o Projeto Wokwi: (https://wokwi.com/projects/433860973697108993)**
 
 <br>
 
@@ -85,11 +85,11 @@ O Serial Plotter do Wokwi é uma ferramenta diagnóstica incrivelmente poderosa 
 ## 📊 Dashboard Interativo com Streamlit
 Este é o seu centro de comando centralizado! O dashboard interativo, construído com Streamlit, é a sua principal interface para visualizar o histórico de dados do sensor, interagir com o modelo preditivo de Machine Learning e tomar decisões informadas sobre a irrigação do solo.
 
-- Visualização do Histórico de Leituras: O dashboard apresenta uma tabela detalhada e organizada de todas as medições de umidade que foram armazenadas no seu banco de dados. Complementando a tabela, um gráfico intuitivo de linha exibe a variação da umidade ao longo do tempo, permitindo uma rápida compreensão das tendências.
+- **Visualização do Histórico de Leituras:** O dashboard apresenta uma tabela detalhada e organizada de todas as medições de umidade que foram armazenadas no seu banco de dados. Complementando a tabela, um gráfico intuitivo de linha exibe a variação da umidade ao longo do tempo, permitindo uma rápida compreensão das tendências.
 
-- Previsão de Irrigação Instantânea: Esta é a funcionalidade estrela do FarmTech! Utilize um slider interativo para simular um nível de umidade atual do solo. Com um simples clique no botão "Fazer Previsão de Irrigação", o modelo de Machine Learning do FarmTech fornecerá uma previsão instantânea sobre a necessidade de irrigação para aquela umidade específica.
+- **Previsão de Irrigação Instantânea:** Esta é a funcionalidade estrela do FarmTech! Utilize um slider interativo para simular um nível de umidade atual do solo. Com um simples clique no botão "Fazer Previsão de Irrigação", o modelo de Machine Learning do FarmTech fornecerá uma previsão instantânea sobre a necessidade de irrigação para aquela umidade específica.
 
-- Adição Manual de Novas Leituras: Na barra lateral (sidebar) do dashboard, você encontrará uma funcionalidade útil para adicionar manualmente novas medições de umidade e seus respectivos status. Isso é fundamental para expandir seu conjunto de dados de treino, simulando a coleta contínua de informações do sensor para futuras análises e o aprimoramento contínuo do modelo.
+- **Adição Manual de Novas Leituras:** Na barra lateral (sidebar) do dashboard, você encontrará uma funcionalidade útil para adicionar manualmente novas medições de umidade e seus respectivos status. Isso é fundamental para expandir seu conjunto de dados de treino, simulando a coleta contínua de informações do sensor para futuras análises e o aprimoramento contínuo do modelo.
 
 <br>
 
@@ -107,8 +107,8 @@ Cada linha de código foi pensada para garantir performance e eficiência, demon
 <br>
 
 **Código C/C++ Otimizado (ESP32)**
-<p>
-No arquivo main.cpp (localizado dentro da pasta ESP32_Wokwi_Code/), você encontrará o código cuidadosamente otimizado para o ESP32. A otimização de memória foi uma prioridade crucial, garantindo a máxima eficiência em um microcontrolador com recursos limitados.
+<br>
+No arquivo `main.cpp` (localizado dentro da pasta `ESP32_Wokwi_Code/`), você encontrará o código cuidadosamente otimizado para o ESP32. A otimização de memória foi uma prioridade crucial, garantindo a máxima eficiência em um microcontrolador com recursos limitados.
 <p>
  
 **Exemplo Prático e Impactante de Otimização de Memória:**
@@ -165,7 +165,7 @@ Mesmo com um conjunto de dados de exemplo inicialmente pequeno, o modelo demonst
 
 ## 📽️ Demonstração
 
-Assista ao vídeo de demonstração no YouTube:  
+**Assista ao vídeo de demonstração no YouTube:**  
 👉 [Clique aqui para assistir](https://www.youtube.com/watch?v=lnG2PRT62W0)
 
 
