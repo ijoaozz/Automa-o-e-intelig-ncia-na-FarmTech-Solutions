@@ -7,14 +7,33 @@
 <br>
 
 # 🌿 FarmTech Solution - Fase 4  
-## Monitoramento Inteligente de Irrigação com IoT e Machine Learning  
-
-Bem-vindo à Fase 4 do projeto **FarmTech Solution**! Este repositório apresenta a evolução de um sistema inteligente para o monitoramento e sugestão de irrigação no agronegócio, integrando tecnologias modernas como **IoT, Machine Learning, banco de dados e dashboards interativos**.
+## Monitoramento Inteligente de Irrigação com IoT e Machine Learning
 
 ---
 
-## 🎯 Objetivo  
+## 👨‍🎓 Integrantes e Responsabilidades:
 
+| Nome Completo                     | RM        |
+|----------------------------------|-----------|
+| Daniele Antonieta Garisto Dias  | RM565106  |
+| Leandro Augusto Jardim da Cunha | RM561395  |
+| Luiz Eduardo da Silva           | RM561701  | 
+| Vanessa Teles Paulino           | RM565180  | 
+| João Victor Viana de Sousa      | RM565136  |
+
+---
+
+## 👩‍🏫 Professores:
+### Tutor(a) 
+- <a>Leonardo Ruiz Orabona</a>
+### Coordenador(a)
+- <a>Andre Godoi Chiovato</a>
+
+---
+
+## 🎯 Introdução e Objetivo
+
+Bem-vindo à Fase 4 do projeto **FarmTech Solution**! Este repositório apresenta a evolução de um sistema inteligente para o monitoramento e sugestão de irrigação no agronegócio, integrando tecnologias modernas como **IoT, Machine Learning, banco de dados e dashboards interativos**.
 A Fase 4 teve como meta levar o projeto a um novo patamar, adicionando inteligência preditiva, persistência de dados e uma interface interativa para tomada de decisão. O foco foi unir eficiência hídrica com tecnologia de ponta, melhorando o desempenho das fases anteriores.
 
 ---
