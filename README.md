@@ -61,6 +61,18 @@ O simulador online Wokwi serve como nosso laboratório virtual para o hardware. 
 
 Link Direto para o Projeto Wokwi: (https://wokwi.com/projects/433860973697108993)
 
+<br>
+
+<img src="assets/SerialPlotter.png" alt="SerialPlotter" width="500"/>
+
+<br>
+
+<img src="assets/SerialPlotter.png" alt="SerialPlotter2" width="500"/>
+
+<br>
+
+<img src="assets/SerialPlotter.png" alt="SerialPlotter3" width="500"/>
+ 
 ---
 
 
