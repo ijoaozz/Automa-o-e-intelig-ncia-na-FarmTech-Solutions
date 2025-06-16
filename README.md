@@ -17,8 +17,7 @@
 |----------------------------------|-----------|
 | Daniele Antonieta Garisto Dias  | RM565106  |
 | Leandro Augusto Jardim da Cunha | RM561395  |
-| Luiz Eduardo da Silva           | RM561701  | 
-| Vanessa Teles Paulino           | RM565180  | 
+| Luiz Eduardo da Silva           | RM561701  |
 | João Victor Viana de Sousa      | RM565136  |
 
 ---
