@@ -79,7 +79,6 @@ if st.button("Fazer Previsão de Irrigação"):
         st.warning("Não foi possível treinar o modelo para fazer previsões. Dados históricos insuficientes.")
 
 st.markdown("---")
-st.markdown("Desenvolvido para FarmTech por [Seu Nome/Empresa]")
 
 # OPICIONAL: Adicionar a funcionalidade de registrar uma nova leitura
 st.sidebar.header("Registrar Nova Leitura")
