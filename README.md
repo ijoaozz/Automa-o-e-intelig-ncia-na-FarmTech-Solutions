@@ -93,8 +93,78 @@ Este é o seu centro de comando centralizado! O dashboard interativo, construíd
 
 <br>
 
+<img src="assets/Streamlit.png" alt="Streamlit" width="500">
 
+<br>
 
+<img src="assets/Streamlit2.png" alt="Streamlit" width="500">
 
+---
+
+## 🧠 Detalhes Técnicos e Otimizações Profundas
+Cada linha de código foi pensada para garantir performance e eficiência, demonstrando um domínio aprofundado das tecnologias.
+
+<br>
+
+**Código C/C++ Otimizado (ESP32)**
+<p>
+No arquivo main.cpp (localizado dentro da pasta ESP32_Wokwi_Code/), você encontrará o código cuidadosamente otimizado para o ESP32. A otimização de memória foi uma prioridade crucial, garantindo a máxima eficiência em um microcontrolador com recursos limitados.
+<p>
+ 
+**Exemplo Prático e Impactante de Otimização de Memória:**
+ 
+```cpp
+// Antes: const int SENSOR_UMIDADE_PIN = 34; // Um 'int' padrão pode consumir 4 bytes no ESP32.
+// Agora: const uint8_t SENSOR_UMIDADE_PIN = 34; // Um 'uint8_t' utiliza APENAS 1 byte!
+```
+**Justificativa da otimização:** Para armazenar números de pinos GPIO (que variam de 0 a 255),
+```cpp
+// o tipo de dado `uint8_t` (inteiro sem sinal de 8 bits) é o mais adequado e incrivelmente econômico.
+// Essa escolha estratégica resulta em uma otimização de 3 bytes por variável, uma economia significativa em microcontroladores.
+```
+```cpp
+// Antes: int umidadePercentual = map(valor, 0, 4095, 0, 100); // Usando 'int' para a porcentagem.
+// Agora: uint8_t umidadePercentual = map(valor, 0, 4095, 0, 100); // 'uint8_t' para a porcentagem.
+```
+**Justificativa da otimização:** A porcentagem de umidade varia de forma natural de 0 a 100%.
+```cpp
+// Este intervalo se encaixa perfeitamente dentro dos limites de um `uint8_t`.
+// Esta otimização proporciona mais 3 bytes de economia e garante máxima eficiência e clareza no código.
+```
+Essas otimizações, embora pareçam pequenas individualmente, somam-se para garantir que o sistema não apenas economize memória, mas também contribua para um código mais robusto, mais rápido e incrivelmente mais eficiente em termos de consumo de recursos.
+
+---
+
+**Banco de Dados Estruturado (SQLite)**
+
+<br>
+
+O coração de dados do FarmTech é o arquivo `farmtech.db`, gerenciado pelo eficiente sistema de banco de dados SQLite. Ele armazena as leituras de forma estruturada e acessível na tabela `leituras_sensores`, com as seguintes colunas essenciais:
+
+`id`: `INTEGER PRIMARY KEY AUTOINCREMENT` - Um identificador único e sequencial, garantindo a integridade e rastreabilidade de cada leitura.
+
+`timestamp`: `TEXT NOT NULL` - Armazena a data e hora exatas da coleta da leitura (no formato legível `YYYY-MM-DD HH:MM:SS`), crucial para análises temporais.
+
+`umidade_percentual`: `INTEGER NOT NULL` - O valor da umidade do solo, já convenientemente convertido para uma porcentagem de 0 a 100.
+
+`status_irrigacao`: `TEXT NOT NULL` - O status de irrigação registrado naquele momento, indicando claramente se foi 'OK' (sem necessidade) ou 'IRRIGAR' (necessário).
+
+Este modelo de dados simples, mas altamente eficiente, fornece a base sólida para todas as análises de Machine Learning e as previsões inteligentes do sistema.
+
+---
+
+**Modelo Preditivo Robusto com Scikit-learn**
+
+<br>
+
+O script `predict_irrigation.py` é a alma inteligente do FarmTech. Ele emprega a poderosa biblioteca `scikit-learn` para treinar um modelo de Árvore de Decisão (`DecisionTreeClassifier`). Este modelo aprende a complexa correlação entre a `umidade_percentual` (nossa principal característica ou "feature") e o `status_irrigacao` (nosso objetivo de previsão ou "target").
+
+Mesmo com um conjunto de dados de exemplo inicialmente pequeno, o modelo demonstra uma impressionante **acurácia de 1.00**, validando a lógica de decisão para os cenários sintéticos simulados. Isso mostra o potencial incrível do FarmTech para escalar e aprender com dados reais no futuro.
+
+---
+
+## 📹 Vídeo de Demonstração Completa!
+
+Vídeo disponível no YouTube: 
 
 
