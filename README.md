@@ -7,7 +7,6 @@
 <br>
 
 # 🌿 Projeto Cap 1 - Automação e inteligência na FarmTech Solutions  
-## Monitoramento Inteligente de Irrigação com IoT e Machine Learning
 
 ---
 
