@@ -6,7 +6,7 @@
 
 <br>
 
-# 🌿 FarmTech Solution - Fase 4  
+# 🌿 Projeto Cap 1 - Automação e inteligência na FarmTech Solutions  
 ## Monitoramento Inteligente de Irrigação com IoT e Machine Learning
 
 ---
@@ -52,35 +52,14 @@ A Fase 4 teve como meta levar o projeto a um novo patamar, adicionando inteligê
 
 ---
 
-## 📁 Estrutura do Projeto
-
-FarmTech-Fase4/
-├── ESP32_Wokwi_Code/
-│ ├── main.cpp # Código do ESP32
-│ └── diagram.json # Circuito Wokwi
-├── Python_App/
-│ ├── farmtech.db # Banco de dados SQLite
-│ ├── setup_db.py # Script de criação do DB
-│ ├── predict_irrigation.py # Modelo preditivo
-│ ├── app.py # Dashboard Streamlit
-│ └── arvore_decisao_farmtech.png # Árvore de decisão
-├── .gitignore
-└── README.md
-
-yaml
-Copy
-Edit
-
----
-
 ## 🚀 Como Rodar o Projeto  
 
 ### 1. Configurar Ambiente Python  
 Certifique-se de ter Python 3.8+ e pip instalados.
 
 ```bash
-cd FarmTech-Fase4/Python_App
 pip install pandas scikit-learn streamlit matplotlib graphviz
+```
 2. Instalar o Graphviz (Visualização da Árvore)
 Windows: Download oficial
 
@@ -140,7 +119,7 @@ status_irrigacao ('OK' ou 'IRRIGAR')
 
 Modelo Preditivo (DecisionTreeClassifier)
 Treinado com os dados armazenados em SQLite, alcançando 100% de acurácia com os dados de teste (valores sintéticos).
-
+```
 📹 Vídeo Demonstrativo
 Confira o funcionamento completo:
 📺 Link para o vídeo no YouTube (insira o link aqui)
