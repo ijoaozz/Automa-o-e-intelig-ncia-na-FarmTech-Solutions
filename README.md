@@ -52,90 +52,15 @@ A Fase 4 teve como meta levar o projeto a um novo patamar, adicionando inteligê
 
 ---
 
-## 🚀 Como Rodar o Projeto  
+# 🧪 Demonstração Completa do FarmTech Solution
 
-### 1. Configurar Ambiente Python  
-Certifique-se de ter Python 3.8+ e pip instalados.
+## 🔌 Simulação Detalhada no Wokwi
+O simulador online Wokwi serve como nosso laboratório virtual para o hardware. Aqui, você pode interagir diretamente com o potenciômetro (que emula com precisão um sensor de umidade de solo real) e observar as respostas do sistema em tempo real. O display LCD I2C conectado ao ESP32 exibirá as principais métricas: a porcentagem de umidade e o status atual da irrigação (indicando se é "OK" ou "IRRIGAR"). Esta é a sua janela para ver como o sistema se comportaria no campo.
 
-```bash
-pip install pandas scikit-learn streamlit matplotlib graphviz
-```
-2. Instalar o Graphviz (Visualização da Árvore)
-Windows: Download oficial
+<br>
 
-macOS: brew install graphviz
+Link Direto para o Projeto Wokwi: (https://wokwi.com/projects/433860973697108993)
 
-Linux (Debian/Ubuntu): sudo apt-get install graphviz
+---
 
-3. Criar Banco de Dados
-bash
-Copy
-Edit
-python setup_db.py
-4. Treinar o Modelo de Machine Learning
-bash
-Copy
-Edit
-python predict_irrigation.py
-5. Rodar o Dashboard
-bash
-Copy
-Edit
-streamlit run app.py
-🧪 Demonstração
-🔌 Simulação no Wokwi
-Link do projeto Wokwi (insira o link aqui)
-Ajuste o potenciômetro para simular a umidade. O LCD exibe a porcentagem e o status (“OK” ou “IRRIGAR”).
 
-📈 Serial Plotter
-Visualize em tempo real as variações de umidade no gráfico do Wokwi.
-
-📊 Dashboard (Streamlit)
-Visualização do histórico de leituras.
-
-Gráfico da umidade.
-
-Previsão de irrigação com base na umidade inserida.
-
-Adição manual de novas leituras.
-
-🌳 Árvore de Decisão
-Geração automática da imagem da árvore de decisão após rodar o script do modelo.
-
-🧠 Detalhes Técnicos
-Otimização do Código ESP32 (C++)
-Uso eficiente de memória com tipos como uint8_t, reduzindo consumo e melhorando a performance no microcontrolador.
-
-Estrutura do Banco (SQLite)
-Tabela leituras_sensores com colunas:
-
-id (chave primária)
-
-timestamp (data e hora)
-
-umidade_percentual (0-100%)
-
-status_irrigacao ('OK' ou 'IRRIGAR')
-
-Modelo Preditivo (DecisionTreeClassifier)
-Treinado com os dados armazenados em SQLite, alcançando 100% de acurácia com os dados de teste (valores sintéticos).
-```
-📹 Vídeo Demonstrativo
-Confira o funcionamento completo:
-📺 Link para o vídeo no YouTube (insira o link aqui)
-
-🔮 Próximos Passos
-Integração com sensores reais e módulo relé para automação da irrigação.
-
-Comunicação Wi-Fi com servidor.
-
-Aumento da base de dados e uso de algoritmos mais robustos.
-
-Notificações inteligentes via e-mail ou Telegram.
-
-Dashboard com múltiplas zonas e relatórios.
-
-👨‍💻 Desenvolvido por
-[Seu Nome Completo]
-Curso: [Nome do Curso / Instituição]
-Data: [Mês/Ano]
