@@ -61,15 +61,15 @@ Este projeto incorpora princípios e abordagens metodológicas semelhantes, serv
  
 <p>
 
-📈 Dashboard interativo com dados ambientais e alertas;
+- Dashboard interativo com dados ambientais e alertas;
 
-💧 Automação de irrigação baseada em previsão do tempo via API Open-Meteo;
+- Automação de irrigação baseada em previsão do tempo via API Open-Meteo;
 
-🧾 Cadastro, edição, exclusão e importação de dados sensoriais via CSV;
+- Cadastro, edição, exclusão e importação de dados sensoriais via CSV;
 
-📊 Consultas SQL para análises técnicas, como controle de água aplicada e variação do pH do solo;
+- Consultas SQL para análises técnicas, como controle de água aplicada e variação do pH do solo;
 
-🧱 Modelagem relacional robusta, com MER detalhado e tabelas normalizadas.
+- Modelagem relacional robusta, com MER detalhado e tabelas normalizadas.
 
 Esses fundamentos, mesmo que em outro contexto tecnológico, serviram como inspiração para o desenvolvimento do FarmTech Solutions, que agora avança ao incorporar:
 
