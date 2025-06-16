@@ -80,6 +80,21 @@ O Serial Plotter do Wokwi é uma ferramenta diagnóstica incrivelmente poderosa 
 
 <img src="assets/GRAFICOSerialPlotter.png" alt="SERIALPLOTTER" width="500"/>
 
+---
+
+## 📊 Dashboard Interativo com Streamlit
+Este é o seu centro de comando centralizado! O dashboard interativo, construído com Streamlit, é a sua principal interface para visualizar o histórico de dados do sensor, interagir com o modelo preditivo de Machine Learning e tomar decisões informadas sobre a irrigação do solo.
+
+- Visualização do Histórico de Leituras: O dashboard apresenta uma tabela detalhada e organizada de todas as medições de umidade que foram armazenadas no seu banco de dados. Complementando a tabela, um gráfico intuitivo de linha exibe a variação da umidade ao longo do tempo, permitindo uma rápida compreensão das tendências.
+
+- Previsão de Irrigação Instantânea: Esta é a funcionalidade estrela do FarmTech! Utilize um slider interativo para simular um nível de umidade atual do solo. Com um simples clique no botão "Fazer Previsão de Irrigação", o modelo de Machine Learning do FarmTech fornecerá uma previsão instantânea sobre a necessidade de irrigação para aquela umidade específica.
+
+- Adição Manual de Novas Leituras: Na barra lateral (sidebar) do dashboard, você encontrará uma funcionalidade útil para adicionar manualmente novas medições de umidade e seus respectivos status. Isso é fundamental para expandir seu conjunto de dados de treino, simulando a coleta contínua de informações do sensor para futuras análises e o aprimoramento contínuo do modelo.
+
+<br>
+
+
+
 
 
 
