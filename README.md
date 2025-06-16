@@ -52,6 +52,42 @@ A Fase 4 teve como meta levar o projeto a um novo patamar, adicionando inteligê
 
 ---
 
+## 🌿 Herança Fase 3: Máquina Agrícola Inteligente
+
+Este projeto incorpora princípios e abordagens metodológicas semelhantes, servindo como uma extensão conceitual da proposta anterior realizada na Fase 3.
+
+https://github.com/LandoAugusto/Fiap_Fase_3_Maquina_Agricola/tree/master
+
+<p>
+
+**Entre as principais funcionalidades estavam:**
+ 
+<p>
+
+📈 Dashboard interativo com dados ambientais e alertas;
+
+💧 Automação de irrigação baseada em previsão do tempo via API Open-Meteo;
+
+🧾 Cadastro, edição, exclusão e importação de dados sensoriais via CSV;
+
+📊 Consultas SQL para análises técnicas, como controle de água aplicada e variação do pH do solo;
+
+🧱 Modelagem relacional robusta, com MER detalhado e tabelas normalizadas.
+
+Esses fundamentos, mesmo que em outro contexto tecnológico, serviram como inspiração para o desenvolvimento do FarmTech Solutions, que agora avança ao incorporar:
+
+- Machine Learning com Scikit-learn;
+
+- Interface interativa com Streamlit;
+
+- Persistência local com SQLite;
+
+- Simulação embarcada com ESP32.
+
+A partir dessa base sólida, o novo projeto visa expandir o uso de modelos preditivos, painéis operacionais e automação inteligente, aplicando conceitos avançados de análise de dados e integração com sistemas externos.
+
+---
+
 # 🧪 Demonstração Completa do FarmTech Solution
 
 ## 🔌 Simulação Detalhada no Wokwi
