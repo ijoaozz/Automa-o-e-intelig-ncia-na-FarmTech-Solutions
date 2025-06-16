@@ -56,8 +56,6 @@ A Fase 4 teve como meta levar o projeto a um novo patamar, adicionando inteligê
 
 Este projeto incorpora princípios e abordagens metodológicas semelhantes, servindo como uma extensão conceitual da proposta anterior realizada na Fase 3.
 
-https://github.com/LandoAugusto/Fiap_Fase_3_Maquina_Agricola/tree/master
-
 <p>
 
 **Entre as principais funcionalidades estavam:**
