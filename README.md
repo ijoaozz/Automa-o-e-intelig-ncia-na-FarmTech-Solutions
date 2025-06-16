@@ -57,7 +57,7 @@ Este projeto incorpora princípios e abordagens metodológicas semelhantes, serv
 
 <p>
 
-**Entre as principais funcionalidades estavam:**
+Entre as principais funcionalidades estavam:
  
 <p>
 
