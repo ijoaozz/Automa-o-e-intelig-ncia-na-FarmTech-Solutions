@@ -63,16 +63,23 @@ Link Direto para o Projeto Wokwi: (https://wokwi.com/projects/433860973697108993
 
 <br>
 
-<img src="assets/SerialPlotter.png" alt="SerialPlotter" width="500"/>
+<img src="assets/SerialPlotter.png" alt="OK" width="500"/>
 
 <br>
 
-<img src="assets/SerialPlotter.png" alt="SerialPlotter2" width="500"/>
+<img src="assets/SerialPlotter2.png" alt="OK" width="500"/>
 
 <br>
 
-<img src="assets/SerialPlotter.png" alt="SerialPlotter3" width="500"/>
+<img src="assets/SerialPlotter3.png" alt="IRRIGAR" width="500"/>
  
 ---
+
+## 📈 Análise Dinâmica com o Serial Plotter
+O Serial Plotter do Wokwi é uma ferramenta diagnóstica incrivelmente poderosa e visualmente intuitiva. Ele transforma os dados brutos de umidade, que o ESP32 está coletando, em um gráfico em tempo real. Isso permite que você observe as flutuações e tendências da umidade de forma dinâmica e imediata, auxiliando na análise do comportamento do sensor e do sistema.
+
+<img src="assets/GRAFICOSerialPlotter.png" alt="SERIALPLOTTER" width="500"/>
+
+
 
 
