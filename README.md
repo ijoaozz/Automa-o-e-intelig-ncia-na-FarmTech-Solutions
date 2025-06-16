@@ -108,7 +108,7 @@ Cada linha de código foi pensada para garantir performance e eficiência, demon
 
 **Código C/C++ Otimizado (ESP32)**
 <br>
-No arquivo `main.cpp` (localizado dentro da pasta `ESP32_Wokwi_Code/`), você encontrará o código cuidadosamente otimizado para o ESP32. A otimização de memória foi uma prioridade crucial, garantindo a máxima eficiência em um microcontrolador com recursos limitados.
+No arquivo `sketch.ino` (localizado dentro da pasta `esp32/`), você encontrará o código cuidadosamente otimizado para o ESP32. A otimização de memória foi uma prioridade crucial, garantindo a máxima eficiência em um microcontrolador com recursos limitados.
 <p>
  
 **Exemplo Prático e Impactante de Otimização de Memória:**
