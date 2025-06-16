@@ -167,3 +167,24 @@ Mesmo com um conjunto de dados de exemplo inicialmente pequeno, o modelo demonst
 
 Vídeo disponível no YouTube: [[CLIQUE AQUI PARA ASSISTIR AO VÍDEO DE DEMONSTRAÇÃO NO YOUTUBE](https://www.youtube.com/watch?v=lnG2PRT62W0)]
 
+---
+
+## 💡 Olhando para o Horizonte: Os Próximos Passos Épicos e Futuras Melhorias
+
+<br>
+
+Este protótipo da Fase 4 é uma fundação incrivelmente sólida e demonstra o potencial do FarmTech. Para levar essa solução ao seu potencial máximo e transformá-la em uma ferramenta revolucionária no mundo real, as próximas etapas podem incluir:
+
+<p>
+
+- **Integração com Hardware Físico Real:** O salto para a realidade! Substituir o simulador Wokwi por um ESP32 físico, conectar sensores de umidade reais no solo e, opcionalmente, integrar um módulo relé para o controle direto de uma bomba de irrigação.
+
+- **Comunicação Bidirecional em Tempo Real:** Estabelecer uma ponte de comunicação robusta e em tempo real via Wi-Fi entre o ESP32 físico e um servidor Python (utilizando frameworks como Flask ou FastAPI). Isso permitirá o envio automático e contínuo de dados do sensor para o banco de dados e, futuramente, o envio de comandos de controle remoto para o ESP32.
+
+- **Aprimoramento Robusto do Modelo de Machine Learning:** Expandir a inteligência! Coletar uma vasta e rica quantidade de dados reais ao longo do tempo, incorporar mais variáveis ambientais (como temperatura do ar e do solo, luminosidade, níveis de nutrientes, histórico de chuva e previsões climáticas). Além disso, explorar algoritmos de Machine Learning mais avançados para alcançar previsões ainda mais precisas e robustas.
+
+- **Sistema de Notificações Ativas Inteligentes:** Implementar funcionalidades de alerta automatizadas. O sistema poderia enviar notificações (por e-mail, SMS ou plataformas como Telegram) quando o modelo preditivo identificar a necessidade iminente de irrigação ou detectar anomalias nas leituras do sensor.
+
+- **Dashboard Avançado e Multi-Zona:** Evoluir o dashboard do Streamlit para gerenciar múltiplas zonas de plantio em uma única interface, apresentar análises detalhadas de tendências históricas, e oferecer relatórios personalizados e automatizados para uma gestão agrícola ainda mais granular e eficiente.
+
+Este projeto não é apenas um trabalho acadêmico; é um vislumbre emocionante de um futuro onde a agricultura é mais inteligente, mais sustentável e incrivelmente mais produtiva, impulsionada pela tecnologia e pela inovação!
