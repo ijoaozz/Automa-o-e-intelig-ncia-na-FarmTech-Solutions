@@ -165,6 +165,5 @@ Mesmo com um conjunto de dados de exemplo inicialmente pequeno, o modelo demonst
 
 ## 📹 Vídeo de Demonstração Completa!
 
-Vídeo disponível no YouTube: 
-
+Vídeo disponível no YouTube: [[CLIQUE AQUI PARA ASSISTIR AO VÍDEO DE DEMONSTRAÇÃO NO YOUTUBE](https://www.youtube.com/watch?v=lnG2PRT62W0)]
 
